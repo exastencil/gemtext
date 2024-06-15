@@ -17,5 +17,9 @@ module Gemtext
     def ==(other)
       other.class == self.class && other.content == @content
     end
+
+    def deconstruct_keys(*_keys)
+      { content: }
+    end
   end
 end
