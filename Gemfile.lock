@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    gemtext (1.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.23.1)
+    rake (12.3.3)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  gemtext!
+  minitest (~> 5.0)
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.5.6
