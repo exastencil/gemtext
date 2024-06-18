@@ -1,8 +1,8 @@
 # Changelog
 
-## Unreleased
+## v1.0.2
 
-* Add pattern match methods (`deconstruct_keys`) for `Gemtext::Node` nad `Gemtext::Link`.
+- Add pattern match methods (`deconstruct_keys`) for `Gemtext::Node` and `Gemtext::Link`.
 
 ## v1.0.1
 
