@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+* Add pattern match methods (`deconstruct_keys`) for `Gemtext::Node` nad `Gemtext::Link`.
+
 ## v1.0.1
 
 - Added 'parse' method to top-level module, like how the README describes. Method can take a String, or a StringIO.
