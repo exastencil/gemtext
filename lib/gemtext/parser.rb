@@ -49,7 +49,7 @@ module Gemtext
             Whitespace[nil]
           when /^=>/
             without_arrow = stripped.delete_prefix('=>').strip
-            pieces = without_arrow.split /\s+/
+            pieces = without_arrow.split(/\s+/)
             url = pieces.first
             description = pieces.drop(1).join ' ' # TODO: Preserve whitespace in description
 
